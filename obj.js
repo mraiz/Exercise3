@@ -219,7 +219,7 @@ var obj=[ {
         }];
 
 function proses(){
-    alert("Ketik keyword untuk mencari data pada TextBox!");
+    alert("Ketik keyword untuk mencari data pada TextBox, dan pastikan huruf diawali dengan huruf KAPITAL!");
     var head = "<br><input type='text' id='1' onkeyup='search()'><input type='text' id='2' onkeyup='search2()'><input type='text' id='3' onkeyup='search3()'><input type='text' id='4' onkeyup='search4()'><input type='text' id='5' onkeyup='search5()'><table border ='1' id='tabel'><thead><tr><td>Name</td><td>Rotation Period</td><td>Orbital Period</td><td>Diameter</td><td>Surface Water</td></tr></thead><tbody>";
    
     for (var i=0; i<obj.length; i++){
